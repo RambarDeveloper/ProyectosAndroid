@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="la.oja.senseware.HistoryActivity"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:measureWithLargestChild="false"
+    android:background="@color/accent"
+    android:keepScreenOn="true">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:visibility="visible"
+        android:baselineAligned="false">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/close"
+            android:src="@mipmap/equis"
+            android:background="@color/accent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:visibility="visible"
+            android:layout_marginTop="20dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mis respuestas para el proyecto:"
+                android:id="@+id/title"
+                android:textAlignment="center"
+                android:singleLine="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre proyecto"
+                android:id="@+id/na_project"
+                android:textAlignment="center"
+                android:singleLine="true"
+                android:textColor="@color/primary_darker"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No tienes repuestas registradas aun"
+        android:id="@+id/noResult"
+        android:layout_marginTop="25dp"
+        android:visibility="gone"
+        android:textAlignment="center"
+        android:singleLine="true" />
+
+    <include
+        layout="@layout/content_my_history"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

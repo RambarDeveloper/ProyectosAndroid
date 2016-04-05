@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/classes"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/d1"
+            android:checked="true"
+            android:title="Aterriza tu idea"
+            android:icon="@mipmap/play"/>
+        <item
+            android:id="@+id/d2"
+            android:title="Monetización"
+            android:icon="@mipmap/lock"/>
+
+        <item
+            android:id="@+id/d3"
+            android:title="Administración del tiempo"
+            android:icon="@mipmap/lock"/>
+        <item
+            android:id="@+id/d4"
+            android:title="¿Cómo empezar?"
+            android:icon="@mipmap/lock"/>
+    </group>
+
+    <item
+        android:id="@+id/maxClass"
+        android:title="Tú clase más avanzada es">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/cclass"
+                    android:title="Clase"
+                    android:icon="@mipmap/play">
+
+                </item>
+            </group>
+        </menu>
+    </item>
+
+</menu>

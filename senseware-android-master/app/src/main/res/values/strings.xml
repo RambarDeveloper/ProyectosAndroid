@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Senseware</string>
+    <string name="action_settings">Opciones</string>
+    <string name="id_label">El archivo es</string>
+    <string name="id_value">[id]</string>
+    <string name="content_label">Titulo</string>
+    <string name="content_value">[content]</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="title_activity_login">Iniciar Sesión</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Correo electrónico</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Emprende!</string>
+    <string name="action_sign_in_short">Iniciar Sesión</string>
+    <string name="error_invalid_email">Este es un email invalido</string>
+    <string name="error_invalid_password">La contraseña es muy corta</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_register">Registro Gratis</string>
+    <string name="new_project">Nuevo Proyecto</string>
+    <string name="history">Mis Respuestas</string>
+    <string name="my_projects">Mis Proyectos</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="title_activity_program">Senseware</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_olvido_password">Recuperar Contraseña</string>
+    <string name="action_recovery_pass">Recuperar</string>
+
+    <string name="logo">Logosenseware</string>
+    <string name="title_activity_login2">Sign in</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="error_empty_project">El nombre del proyecto no puede estar vacio</string>
+
+    <string name="error_edit_project">No has cambiado el nombre del proyecto</string>
+    <string name="clear_cache">Limpiar cache</string>
+
+    <!-- URL production environment -->
+    <string name="urlAPI">http://ojalab.com/senseware/api/</string>
+
+    <!-- URL developer environment
+    <string name="urlAPI">http://ojalab.com/s2/api/</string> -->
+
+
+</resources>
